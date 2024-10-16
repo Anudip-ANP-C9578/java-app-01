@@ -1,0 +1,57 @@
+Write code for the below-mentioned task by following the below-mentioned guidelines.
+
+Task:
+Perform addition operation on two non-decimal numbers.
+
+Guidelines:
+1. Define a package named org.anudip.javaapp.operation in the application.
+2. Define a class named TwoNonDecimalNumbersSum in the above-mentioned package.
+3. Define a method named add in the above-mentioned class for performing the task.
+4. The above-mentioned method must be accessible to any class from any package.
+5. The above-mentioned method must contain two parameters of number type with a range from 0 to 2147483647.
+6. The above-mentioned method must perform the task and return the result as a number whose range can exceed 2147483647.
+7. The above-mentioned method must return -1 if a negative number is passed to any parameter.
+8. The above-mentioned method must return -2 if 0 value is passed to any parameter.
+
+Sample Input 1:
+10 & 2
+Expected Output 1:
+12
+
+Sample Input 2:
+10 & -2
+Expected Output 2:
+-1
+
+Sample Input 3:
+-10 & 2
+Expected Output 3:
+-1
+
+Sample Input 4:
+-10 & -2
+Expected Output 4:
+-1
+
+Sample Input 5:
+10 & 0
+Expected Output 5:
+-2
+
+Sample Input 6:
+0 & 2
+Expected Output 6:
+-2
+
+Sample Input 7:
+0 & 0
+Expected Output 7:
+-2
+
+Note:
+1. Once finished with the task, run the tests to verify if you have achieved the task and followed the guidelines.
+2. Push the code to the remote repository from where you have cloned the application.
+3. Do remember to push your code to the branch with your name and not the master branch. 
+4. Use the program class named App available in the application to execute your code. 
+5. You can use print statements for your reference while writing the code but do remember to remove them before submitting the code.
+6. Only the task and implementation of guidelines are considered for evaluation and not the code in program class.
