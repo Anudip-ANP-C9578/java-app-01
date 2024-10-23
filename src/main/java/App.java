@@ -13,7 +13,7 @@ public class App {
     public static void main(String[] args) {
 	  
 	   /*
-       *creating object
+       *creating object to access method
        */	 
 	   TwoNonDecimalNumbersSum twoNonDecimalNumbersSum = new TwoNonDecimalNumbersSum();
 	   
