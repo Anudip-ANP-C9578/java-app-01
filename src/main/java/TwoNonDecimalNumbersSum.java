@@ -5,13 +5,12 @@ package org.anudip.javaapp.operation;
 
 /*
 *creating a class named TwoNonDecimalNumbersSum 
-*accessible to every class and methods
+*accessible to any class
 */
 public class TwoNonDecimalNumbersSum {
 
 /*
-*creating a method with same class name
-*accessible to any class and this method contains
+*creating a method named add and this method contains
 *two parameters of int type and returns long type 
 */
 
